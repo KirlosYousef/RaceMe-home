@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5d6f0f5-ea4d-4db0-afef-ee49feaecb68" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1cY3JtXlboOpVr49Ak9Gaunc6Dh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RaceMe-HomePage/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5d6f0f5-ea4d-4db0-afef-ee49feaecb68" name="Default Changelist" comment="" />
+      <created>1590691630939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590691630939</updated>
+      <workItem from="1590691632123" duration="18000" />
+      <workItem from="1590691663860" duration="234000" />
+      <workItem from="1590691937764" duration="351000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="607" y="215" key="#index.html" timestamp="1590691967492">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="607" y="215" key="#index.html/0.23.1680.1027@0.23.1680.1027" timestamp="1590691967492" />
+    <state width="819" height="345" key="GridCell.Tab.0.bottom" timestamp="1590692300405">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="819" height="345" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590692300405" />
+    <state width="819" height="345" key="GridCell.Tab.0.center" timestamp="1590692300404">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="819" height="345" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590692300404" />
+    <state width="819" height="345" key="GridCell.Tab.0.left" timestamp="1590692300402">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="819" height="345" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590692300402" />
+    <state width="819" height="345" key="GridCell.Tab.0.right" timestamp="1590692300405">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="819" height="345" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590692300405" />
+    <state x="683" y="214" key="SettingsEditor" timestamp="1590692265585">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="683" y="214" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1590692265585" />
+  </component>
+</project>
