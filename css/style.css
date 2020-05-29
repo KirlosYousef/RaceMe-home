@@ -417,7 +417,7 @@ h3 {
 /* line 29, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #37EBED;
+  background: #fff;
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
@@ -429,7 +429,7 @@ h3 {
   -moz-border-radius: 5px;
   border-radius: 5px;
   text-align: center;
-  color: #fff !important;
+  color: #4BA8FD !important;
   text-transform: capitalize;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
