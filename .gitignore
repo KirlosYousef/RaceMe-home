@@ -2,6 +2,14 @@
 # Created by https://www.toptal.com/developers/gitignore/api/webstorm,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=webstorm,macos
 
+### Unused Files ###
+Pricing.html
+features.html
+elements.html
+blog.html
+single-blog.html
+214 AppLab  DOC
+
 ### macOS ###
 # General
 .DS_Store
