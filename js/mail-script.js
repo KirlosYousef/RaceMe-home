@@ -1,31 +1,30 @@
-    // -------   Mail Send ajax
+// Define the function to send an email
+function sendEmail() {
+    // Get values from form elements
+    var name = document.getElementById('name').value;
+    var message = document.getElementById('message').value;
 
-     $(document).ready(function() {
-        var form = $('#myForm'); // contact form
-        var submit = $('.submit-btn'); // submit button
-        var alert = $('.alert-msg'); // alert div for show alert message
+    // Replace "\n" with "<br>" to handle line breaks in HTML
+    message = message.replace(/\n/g, '<br>');
 
-        // form submit event
-        form.on('submit', function(e) {
-            e.preventDefault(); // prevent default form submit
-
-            $.ajax({
-                url: 'mail.php', // form action url
-                type: 'POST', // form submit method get/post
-                dataType: 'html', // request type html/json/xml
-                data: form.serialize(), // serialize form data
-                beforeSend: function() {
-                    alert.fadeOut();
-                    submit.html('Sending....'); // change submit button text
-                },
-                success: function(data) {
-                    alert.html(data).fadeIn(); // fade in response data
-                    form.trigger('reset'); // reset form
-                    submit.attr("style", "display: none !important");; // reset submit button text
-                },
-                error: function(e) {
-                    console.log(e)
-                }
-            });
-        });
-    });
+    // Use the Email.send function to send an email
+    Email.send({
+        SecureToken: "5f3c680d-43ab-4f49-8e10-ec2aaf81f39c", // Your SecureToken (API Key)
+        To: "support@raceme.live", // Recipient email address
+        From: document.getElementById('email').value, // Sender email address
+        Subject: document.getElementById('subject').value, // Email subject
+        Body: "Name: " + name + "<br>" + message // Email body with name and message
+    }).then(
+        // Handle the result of the email sending attempt
+        message => {
+            // Check if the message is 'OK' (indicating success)
+            if (message === 'OK') {
+                // Display a success message
+                alert('Email sent successfully!');
+            } else {
+                // Display an error message if something went wrong
+                alert('Oops, something went wrong. Please try again later.');
+            }
+        }
+    );
+}
