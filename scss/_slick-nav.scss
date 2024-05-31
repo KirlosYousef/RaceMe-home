@@ -27,10 +27,10 @@
         a{
             &:hover{
                 background: transparent;
-                color: #5DB2FF;
+                color: #0056a9;
             }
             &.active{
-                color: #5DB2FF;
+                color: #0056a9;
             }
             i{
                 @media #{$mobile_device} {
