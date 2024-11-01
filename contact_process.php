@@ -1,6 +1,6 @@
 <?php
 
-    $to = "support@raceme.live";
+    $to = "support@raceme.top";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];

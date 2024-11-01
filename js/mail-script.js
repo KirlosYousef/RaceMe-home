@@ -10,7 +10,7 @@ function sendEmail() {
     // Use the Email.send function to send an email
     Email.send({
         SecureToken: "5f3c680d-43ab-4f49-8e10-ec2aaf81f39c", // Your SecureToken (API Key)
-        To: "support@raceme.live", // Recipient email address
+        To: "support@raceme.top", // Recipient email address
         From: document.getElementById('email').value, // Sender email address
         Subject: document.getElementById('subject').value, // Email subject
         Body: "Name: " + name + "<br>" + message // Email body with name and message
